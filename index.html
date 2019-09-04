@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>Sunshine - Responsive vCard Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Sunshine - Responsive vCard Template" />
+    <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Sunshine, portfolio" />
+    <meta name="author" content="lmtheme" />
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/transition-animations.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/custom.css" type="text/css">
+    
+  
+
+    <!-- This styles needs for demo -->
+    <link rel="stylesheet" href="preview/lmpixels-demo-panel.css" type="text/css">
+    <!-- /This styles needs for demo -->
+
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    
+    
+  </head>
+
+  <body>
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="dot1"></div>
+        <div class="dot2"></div>
+      </div>
+    </div>
+    <!-- /Loading animation -->
+
+    <div id="page" class="page">
+      <!-- Header -->
+      <header id="site_header" class="header">
+        <div class="my-photo">
+          <img src="images/my_photo.png" alt="image">
+          <div class="mask"></div>
+        </div>
+
+        <div class="site-title-block">
+          <h1 class="site-title">Michael Angelo Manaog</h1>
+          <p class="site-description">Web Developer</p>
+        </div>
+
+        <a class="menu-toggle mobile-visible">
+          <i class="fa fa-bars"></i>
+        </a>
+      </header>
+      <!-- /Header -->
+
+      <!-- Main Content -->
+      <div id="main" class="site-main">
+        <!-- Page changer wrapper -->
+        <div class="pt-wrapper">
+          <!-- Navigation & Social buttons -->
+          <div class="site-nav mobile-menu-hide">
+            <!-- Main menu -->
+            <ul id="nav" class="site-main-menu">
+              <!-- About Me Subpage link -->
+              <li>
+                <a class="pt-trigger" href="#about_me" data-animation="58" data-goto="1">About me</a><!-- href value = data-id without # of .pt-page -->
+              </li>
+              <!-- /About Me Subpage link -->
+              <li>
+                <a class="pt-trigger" href="#resume" data-animation="59" data-goto="2">Resume</a>
+              </li>
+              <li>
+                <a class="pt-trigger" href="#portfolio" data-animation="60" data-goto="3">Portfolio</a>
+              </li>
+              <li>
+                <a class="pt-trigger" href="#contact" data-animation="58" data-goto="5">Contact</a>
+              </li>
+            </ul>
+            <!-- /Main menu -->
+
+            <!-- Social buttons -->
+            <ul class="social-links">
+              <li>
+                <a class="tip social-button" href="https://twitter.com/naruhinaisreal" title="Twitter" target="_blank">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li> 
+              <li>
+                <a class="tip social-button" href="https://web.facebook.com/angelothegreat13" title="Facebook" target="_blank">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a class="tip social-button" href="https://github.com/angelothegreat13" title="Facebook" target="_blank">
+                  <i class="fa fa-github"></i>
+                </a>
+              </li>
+            </ul>
+            <!-- /Social buttons -->
+          </div>
+          <!-- Navigation & Social buttons -->
+
+          <!-- Subpages -->
+          <div class="subpages">
+            <!-- About Me Subpage -->
+            <section class="pt-page pt-page-1" data-id="about_me">
+              <div class="section-title-block">
+                <h2 class="section-title">About Me</h2>
+                <h5 class="section-description">Artist, Thinker, Programmer</h5>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-12 col-md-12 mobile-visible subpage-block">
+                  <div class="my-photo-small">
+                    <img src="images/profile.jpg" alt="image">
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-12 subpage-block">
+                  <div class="general-info">
+                    <h3>I am Web Developer</h3>
+                    <p>To take a challenging role in the field of Computer programming and implement the expertise and experience gained in
+                    this field to develop complex project with efficiency and quality.</p>
+                  </div>
+                </div>
+                
+              </div>
+
+              <!-- Services block -->
+              <div class="block-title">
+                <h3>Services</h3>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-4 col-md-4 subpage-block">
+                  <div class="service-block"> 
+                    <div class="service-info">
+                      <img src="images/service/responsive.svg" alt="Responsive Design">
+                      <h4>Web Development</h4>
+                      <!-- <p>Creating website fully functional.</p> -->
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-4 col-md-4 subpage-block">
+                  <div class="service-block"> 
+                    <div class="service-info">
+                      <img src="images/service/code.svg" alt="Copywriter">
+                      <h4>Desktop Software</h4>
+                      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p> -->
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-4 col-md-4 subpage-block">
+                  <div class="service-block"> 
+                    <div class="service-info">
+                      <img src="images/service/database.svg" alt="Management">
+                      <h4>Database Design</h4>
+                      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Services block -->
+
+              <!-- Fun facts block -->
+              <div class="block-title">
+                <h3>Fun Facts</h3>
+              </div>
+
+              <div class="row">
+                <div class="col-md-4 subpage-block">
+                  <div class="fun-fact-block gray-bg"> 
+                    <i class="pe-7s-icon pe-7s-smile"></i>
+                    <h4>Happy Clients</h4>
+                    <span class="fun-value">7</span>
+                  </div>
+                </div>
+
+                <div class="col-md-4 subpage-block">
+                  <div class="fun-fact-block"> 
+                    <i class="pe-7s-icon pe-7s-alarm"></i>
+                    <h4>Working Hours</h4>
+                    <span class="fun-value">3,256</span>
+                  </div>
+                </div>
+
+                <div class="col-md-4 subpage-block">
+                  <div class="fun-fact-block"> 
+                    <i class="pe-7s-icon pe-7s-coffee"></i>
+                    <h4>Coffee Consumed</h4>
+                    <span class="fun-value">20,000</span>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Fun fucts block -->
+            </section>
+            <!-- End of About Me Subpage -->
+
+            <!-- Resume Subpage -->
+            <section class="pt-page pt-page-2" data-id="resume">
+              <div class="section-title-block">
+                <h2 class="section-title">Resume</h2>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-6 col-md-12 subpage-block">
+                  <div class="block-title">
+                    <h3>Education</h3>
+                  </div>
+                  <div class="timeline">
+
+                    <div class="row">
+
+                      <div class="col-md-6">
+                        <div class="timeline-event te-primary">
+                          <h5 class="event-date">2012 - 2013</h5>
+                          <h4 class="event-name">Bachelor of Science in Mechanial Engineer</h4>
+                          <span class="event-description">EARIST</span>
+                        </div>
+                      </div>
+
+                      <div class="col-md-6">
+                        <div class="timeline-event te-primary">
+                          <h5 class="event-date">2014 - 2018</h5>
+                          <h4 class="event-name">Bachelor of Science in Information Technology</h4>
+                          <span class="event-description">Lyceum of Alabang</span>
+                        </div>
+                      </div>
+                    
+                    </div>
+                  
+                  </div>
+                </div>
+
+                <div class="col-md-12 subpage-block">
+
+                  <div class="block-title">
+                    <h3>Skills</h3>
+                  </div>
+                  
+                  <div class="skills-info">
+
+                    <div class="row">
+                      
+                      <div class="col-md-6">
+                        <h4>HML5</h4>
+                        <div class="skill-container html-skill-container">
+                          <div class="skill-percentage html-percentage patina"></div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-6">
+                        <h4>CSS3</h4>
+                        <div class="skill-container css-skill-container">
+                          <div class="skill-percentage css-percentage monza"></div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-6">
+                        <h4>Bootstrap</h4>
+                        <div class="skill-container bootstrap-skill-container">
+                          <div class="skill-percentage bootstrap-percentage ibis"></div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-6">
+                        <h4>MySQL</h4>
+                        <div class="skill-container mysql-skill-container">
+                          <div class="skill-percentage mysql-percentage medium-purple"></div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-6">
+                        <h4>Javascript</h4>
+                        <div class="skill-container js-skill-container">
+                          <div class="skill-percentage js-percentage ultra-marine"></div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-6">
+                        <h4>jQuery</h4>
+                        <div class="skill-container jquery-skill-container">
+                          <div class="skill-percentage jquery-percentage ripe-lemon"></div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-6">
+                        <h4>PHP</h4>
+                        <div class="skill-container php-skill-container">
+                          <div class="skill-percentage php-percentage turq"></div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-6">
+                        <h4>OOP</h4>
+                        <div class="skill-container oop-skill-container">
+                          <div class="skill-percentage oop-percentage amber"></div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-6">
+                        <h4>MVC</h4>
+                        <div class="skill-container mvc-skill-container">
+                          <div class="skill-percentage mvc-percentage scarlet"></div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-6">
+                        <h4>Laravel</h4>
+                        <div class="skill-container laravel-skill-container">
+                          <div class="skill-percentage laravel-percentage jordy-blue"></div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-6">
+                        <h4>CodeIgniter</h4>
+                        <div class="skill-container ci-skill-container">
+                          <div class="skill-percentage ci-percentage wisteria"></div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-6">
+                        <h4>Wordpress</h4>
+                        <div class="skill-container wp-skill-container">
+                          <div class="skill-percentage wp-percentage jungle-green"></div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-6">
+                        <h4>VB.NET</h4>
+                        <div class="skill-container vb-skill-container">
+                          <div class="skill-percentage vb-percentage navy-blue"></div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-6">
+                        <h4>Flutter</h4>
+                        <div class="skill-container flutter-skill-container">
+                          <div class="skill-percentage flutter-percentage lime-green"></div>
+                        </div>
+                      </div>
+
+                    </div>
+                  
+                  </div>
+
+                </div>
+              
+              </div>
+              <!-- <div class="row">
+                <div class="col-sm-12 col-md-12">
+                  <div class="download-cv-block">
+                    <a class="button" target="_blank" href="#">Download CV</a>
+                  </div>
+                </div>
+              </div> -->
+            </section>
+            <!-- End Resume Subpage -->
+
+
+            <!-- Portfolio Subpage -->
+            <section class="pt-page pt-page-3" data-id="portfolio">
+              <div class="section-title-block">
+                <h2 class="section-title">Portfolio</h2>
+                <h5 class="section-description">My Best Works</h5>
+              </div>
+
+              <!-- Portfolio Content -->
+              <div class="portfolio-content">
+                            
+                <!-- Portfolio filter -->
+                <!-- <ul id="portfolio_filters" class="portfolio-filters">
+                  <li class="active">
+                    <a class="filter btn btn-sm btn-link active" data-group="all">All</a>
+                  </li>
+                  <li>
+                    <a class="filter btn btn-sm btn-link" data-group="media">Media</a>
+                  </li>
+                  <li>
+                    <a class="filter btn btn-sm btn-link" data-group="illustration">Illustration</a>
+                  </li>
+                  <li>
+                    <a class="filter btn btn-sm btn-link" data-group="video">Video</a>
+                  </li>
+                </ul> -->
+                <!-- End of Portfolio filter -->
+
+                <!-- Portfolio Grid -->
+                <div id="portfolio_grid" class="portfolio-grid portfolio-masonry masonry-grid-3">
+                  
+                  <figure class="item" data-groups='["all","illustration"]'>
+                    <a href="images/portfolio/laravel_qa.png" class="lightbox" title="Forum System">
+                      <img src="images/portfolio/laravel_qa_preview.png" alt="">
+                      <div>
+                        <h5 class="name">Forum System</h5>
+                        <small>This a Question and Answer System created in HTML, CSS, Javascript, jQuery, Bootstrap4, MySQL, PHP and
+                          Laravel.</small>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="item" data-groups='["all", "illustration"]'>
+                    <a href="images/portfolio/edlene_shop.png" class="lightbox" title="Edlene Online Shop">
+                      <img src="images/portfolio/edlene_shop_preview.png" alt="">
+                      <div>
+                        <h5 class="name">Edlene Online Shop</h5>
+                        <small>This an E-commerce System created in HTML, CSS, Javascript, jQuery, Bootstrap3, MySQL and PHP.</small>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="item" data-groups='["all","illustration"]'>
+                    <a href="images/portfolio/archive.png" class="lightbox" title="Archive System">
+                      <img src="images/portfolio/archive_preview.png" alt="">
+                      <div>
+                        <h5 class="name">Archive System</h5>
+                        <small>This is a Document Information and Filling System created in HTML, CSS, Javascript, jQuery, Bootstrap3, MySQL and PHP.</small>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="item" data-groups='["all","illustration"]'>
+                    <a href="images/portfolio/validate.png" class="lightbox" title="Validate System">
+                      <img src="images/portfolio/validate_preview.png" alt="">
+                      <div>
+                        <h5 class="name">Validate System</h5>
+                        <small>This is a Validation Management System created in HTML, CSS, Javascript, jQuery, Bootstrap3, MySQL and PHP.</small>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="item" data-groups='["all","illustration"]'>
+                    <a href="images/portfolio/evaluate.png" class="lightbox" title="Evaluate System">
+                      <img src="images/portfolio/evaluate_preview.png" alt="">
+                      <div>
+                        <h5 class="name">Evaluate System</h5>
+                        <small>This is an Employee Evaluation System created in HTML, CSS, Javascript, jQuery, Bootstrap3, MySQL and
+                          PHP.</small>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="item" data-groups='["all","illustration"]'>
+                    <a href="images/portfolio/gender.png" class="lightbox" title="Gender Sensitivity System">
+                      <img src="images/portfolio/gender_preview.png" alt="">
+                      <div>
+                        <h5 class="name">Gender Sensitivity System</h5>
+                        <small>This is Survey System about gender. Created using HTML, CSS, Javascript, jQuery, Bootstrap3, MySQL and
+                          PHP.</small>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="item" data-groups='["all","illustration"]'>
+                    <a href="images/portfolio/settings.png" class="lightbox" title="Settings System">
+                      <img src="images/portfolio/settings_preview.png" alt="">
+                      <div>
+                        <h5 class="name">Settings System</h5>
+                        <small>This is a Control Panel System created in HTML, CSS, Javascript, jQuery, Bootstrap3, MySQL and
+                          PHP.</small>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="item" data-groups='["all","illustration"]'>
+                    <a href="images/portfolio/trail.png" class="lightbox" title="Trail System">
+                      <img src="images/portfolio/trail_preview.png" alt="">
+                      <div>
+                        <h5 class="name">Trail System</h5>
+                        <small>This is a Document Tracking System created in HTML, CSS, Javascript, jQuery, Bootstrap3, MySQL and
+                          PHP.</small>
+                      </div>
+                    </a>
+                  </figure>
+
+                </div>
+                <!-- /Portfolio Grid -->
+
+              </div>
+              <!-- /Portfolio Content -->
+
+            </section>
+            <!-- /Portfolio Subpage -->
+
+            <!-- Blog Subpage -->
+            <section class="pt-page pt-page-4" data-id="blog">
+              <div class="section-title-block">
+                <h2 class="section-title">Blog</h2>
+                <h5 class="section-description">My Diary</h5>
+              </div>
+              <div class="blog-masonry">
+                <!-- Blog Post 1 -->
+                <div class="item">
+                  <div class="blog-card">
+                    <div class="media-block">
+                      <a href="blog-post-1.html">
+                        <img class="post-image img-responsive" src="images/blog/blog_post_1.jpg" alt="blog-post-1" />
+                        <div class="mask"></div>
+                        <div class="post-date"><span class="day">6</span><span class="month">Dec</span><!--<span class="year">2016</span>--></div>
+                      </a>
+                    </div>
+                    <div class="post-info">
+                      <ul class="category">
+                        <li><a href="#">Travel</a></li>
+                      </ul>
+                      <a href="blog-post-1.html"><h4 class="blog-item-title">Bootstrap is the Most Popular Framework</h4></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Blog Post 1 -->
+
+                <!-- Blog Post 2 -->
+                <div class="item">
+                  <div class="blog-card">
+                    <div class="media-block">
+                      <a href="blog-post-1.html">
+                        <img class="post-image img-responsive" src="images/blog/blog_post_2.jpg" alt="blog-post-2" />
+                        <div class="mask"></div>
+                        <div class="post-date"><span class="day">3</span><span class="month">Nov</span><!--<span class="year">2016</span>--></div>
+                      </a>
+                    </div>
+                    <div class="post-info">
+                      <ul class="category">
+                        <li><a href="#">jQuery</a></li>
+                      </ul>
+                      <a href="blog-post-1.html"><h4 class="blog-item-title">One Framework, Every Device</h4></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Blog Post 2 -->
+
+                <!-- Blog Post 3 -->
+                <div class="item">
+                  <div class="blog-card">
+                    <div class="media-block">
+                      <a href="blog-post-1.html">
+                        <img class="post-image img-responsive" src="images/blog/blog_post_3.jpg" alt="blog-post-3" />
+                        <div class="mask"></div>
+                        <div class="post-date"><span class="day">12</span><span class="month">Oct</span><!--<span class="year">2016</span>--></div>
+                      </a>
+                    </div>
+                    <div class="post-info">
+                      <ul class="category">
+                        <li><a href="#">Sport</a></li>
+                      </ul>
+                      <a href="blog-post-1.html"><h4 class="blog-item-title">Designed for Everyone, Everywhere</h4></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Blog Post 3 -->
+
+                <!-- Blog Post 4 -->
+                <div class="item">
+                  <div class="blog-card">
+                    <div class="media-block">
+                      <a href="blog-post-1.html">
+                        <img class="post-image img-responsive" src="images/blog/blog_post_4.jpg" alt="blog-post-4" />
+                        <div class="mask"></div>
+                        <div class="post-date"><span class="day">18</span><span class="month">Aug</span><!--<span class="year">2016</span>--></div>
+                      </a>
+                    </div>
+                    <div class="post-info">
+                      <ul class="category">
+                        <li><a href="#">CSS</a></li>
+                      </ul>
+                      <a href="blog-post-1.html"><h4 class="blog-item-title">An Introduction To PostCSS</h4></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Blog Post 4 -->
+
+                <!-- Blog Post 5 -->
+                <div class="item">
+                  <div class="blog-card">
+                    <div class="media-block">
+                      <a href="blog-post-1.html">
+                        <img class="post-image img-responsive" src="images/blog/blog_post_5.jpg" alt="blog-post-5" />
+                        <div class="mask"></div>
+                        <div class="post-date"><span class="day">2</span><span class="month">Jul</span><!--<span class="year">2016</span>--></div>
+                      </a>
+                    </div>
+                    <div class="post-info">                        
+                      <ul class="category">
+                        <li><a href="#">CSS3</a></li>
+                      </ul>
+                      <a href="blog-post-1.html"><h4 class="blog-item-title">Original and Innovative Web Layouts</h4></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Blog Post 5 -->
+
+                <!-- Blog Post 6 -->
+                <div class="item">
+                  <div class="blog-card">
+                    <div class="media-block">
+                      <a href="blog-post-1.html">
+                        <img class="post-image img-responsive" src="images/blog/blog_post_6.jpg" alt="blog-post-6" />
+                        <div class="mask"></div>
+                        <div class="post-date"><span class="day">8</span><span class="month">May</span><!--<span class="year">2016</span>--></div>
+                      </a>
+                    </div>
+                    <div class="post-info">
+                      <ul class="category">
+                        <li><a href="#">HTML5</a></li>
+                      </ul>
+                      <a href="blog-post-1.html"><h4 class="blog-item-title">Creative and Innovative Navigation Designs</h4></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Blog Post 6 -->
+
+                <!-- Blog Post 7 -->
+                <div class="item">
+                  <div class="blog-card">
+                    <div class="media-block">
+                      <a href="blog-post-1.html">
+                        <img class="post-image img-responsive" src="images/blog/blog_post_7.jpg" alt="blog-post-7" />
+                        <div class="mask"></div>
+                        <div class="post-date"><span class="day">7</span><span class="month">Apr</span><!--<span class="year">2016</span>--></div>
+                      </a>
+                    </div>
+                    <div class="post-info">
+                      <ul class="category">
+                        <li><a href="#">Design</a></li>
+                      </ul>
+                      <a href="blog-post-1.html"><h4 class="blog-item-title">Navigation for Mega-Sites</h4></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Blog Post 7 -->
+
+                <!-- Blog Post 8 -->
+                <div class="item">
+                  <div class="blog-card">
+                    <div class="media-block">
+                      <a href="blog-post-1.html">
+                        <img class="post-image img-responsive" src="images/blog/blog_post_8.jpg" alt="blog-post-8" />
+                        <div class="mask"></div>
+                        <div class="post-date"><span class="day">21</span><span class="month">Mar</span><!--<span class="year">2016</span>--></div>
+                      </a>
+                    </div>
+                    <div class="post-info">
+                      <ul class="category">
+                        <li><a href="#">CSS3</a></li>
+                      </ul>
+                      <a href="blog-post-1.html"><h4 class="blog-item-title">Front-End Challenge Accepted: CSS 3D Cube</h4></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Blog Post 8 -->
+              </div>
+            </section>
+            <!-- End Blog Subpage -->
+
+            <!-- Contact Subpage -->
+            <section class="pt-page pt-page-5" data-id="contact">
+              <div class="section-title-block">
+                <h2 class="section-title">Contact</h2>
+                <h5 class="section-description">Get in Touch</h5>
+              </div>
+
+              <div class="row">
+                
+                <div class="col-md-4 subpage-block">
+                  <div class="block-title">
+                    <h3>Get in Touch</h3>
+                  </div>
+                  <div class="contact-info-block">
+                    <div class="ci-icon">
+                      <i class="pe-7s-icon pe-7s-map-marker"></i>
+                    </div>
+                    <div class="ci-text">
+                      <h5>Sucat, Muntinlupa City</h5>
+                    </div>
+                  </div>
+                  <div class="contact-info-block">
+                    <div class="ci-icon">
+                      <i class="pe-7s-icon pe-7s-mail"></i>
+                    </div>
+                    <div class="ci-text">
+                      <h5><a href="mailto:angelothegreat13@gmail.com">angelothegreat13@gmail.com</a></h5>
+                    </div>
+                  </div>
+                  <div class="contact-info-block">
+                    <div class="ci-icon">
+                      <i class="pe-7s-icon pe-7s-call"></i>
+                    </div>
+                    <div class="ci-text">
+                      <h5>+63 9651574364</h5>
+                    </div>
+                  </div>
+                  <div class="contact-info-block">
+                    <div class="ci-icon">
+                      <i class="pe-7s-icon pe-7s-check"></i>
+                    </div>
+                    <div class="ci-text">
+                      <h5>Freelance Available</h5>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-8 subpage-block">
+                  <div class="block-title">
+                    <h3>Contact Form</h3>
+                  </div>
+                  <form id="contact-form" method="post" action="#">
+
+                    <div class="messages"></div>
+
+                    <div class="controls">
+                      <div class="form-group">
+                          <input id="form_name" type="text" name="name" class="form-control" placeholder="Full Name" required="required" data-error="Name is required.">
+                          <div class="form-control-border"></div>
+                          <i class="form-control-icon fa fa-user"></i>
+                          <div class="help-block with-errors"></div>
+                      </div>
+
+                      <div class="form-group">
+                          <input id="form_email" type="email" name="email" class="form-control" placeholder="Email Address" required="required" data-error="Valid email is required.">
+                          <div class="form-control-border"></div>
+                          <i class="form-control-icon fa fa-envelope"></i>
+                          <div class="help-block with-errors"></div>
+                      </div>
+
+                      <div class="form-group">
+                          <textarea id="form_message" name="message" class="form-control" placeholder="Message for me" rows="4" required="required" data-error="Please, leave me a message."></textarea>
+                          <div class="form-control-border"></div>
+                          <i class="form-control-icon fa fa-comment"></i>
+                          <div class="help-block with-errors"></div>
+                      </div>
+                      
+                      <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI" data-callback="correctCaptcha"></div>
+
+                      <input type="submit" class="button btn-send" value="Send message">
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </section>
+            <!-- End Contact Subpage -->
+
+          </div>
+        </div>
+        <!-- /Page changer wrapper -->
+      </div>
+      <!-- /Main Content -->
+    </div>
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/page-transition.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/validator.js"></script>
+    <script src="js/jquery.shuffle.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.hoverdir.js"></script>
+    <script src="js/main.js"></script>
+    <script src="preview/lmpixels-demo-panel.js"></script>
+
+  </body>
+
+
+</html>

@@ -1,0 +1,188 @@
+.site-title {
+    font-size: 26px !important;
+    letter-spacing: 1px;
+}
+
+.service-block img {
+    max-width: 150px !important;
+    max-height: 130px !important;
+}
+
+/* Start of Skills Design */
+.html-skill-container {
+    border: 2px solid #407A52 !important;
+}
+
+.css-skill-container {
+    border: 2px solid #CF000F !important;
+}
+
+.bootstrap-skill-container {
+    border: 2px solid #F58F84 !important;
+}
+
+.mysql-skill-container {
+    border: 2px solid #BF55EC !important;
+}
+
+.js-skill-container {
+    border: 2px solid #5D8CAE !important;
+}
+
+.jquery-skill-container {
+    border: 2px solid #F7CA18 !important;
+}
+
+.php-skill-container {
+    border: 2px solid #36D7B7 !important;
+}
+
+.oop-skill-container {
+    border: 2px solid #CA6924 !important;
+}
+
+.mvc-skill-container {
+    border: 2px solid #D24D57 !important;
+}
+
+.laravel-skill-container {
+    border: 2px solid #89C4F4 !important;
+}
+
+.ci-skill-container {
+    border: 2px solid #875F9A !important;
+}
+
+.wp-skill-container {
+    border: 2px solid #2ABB9B !important;
+}
+
+.vb-skill-container {
+    border: 2px solid #003171 !important;
+}
+
+.flutter-skill-container {
+    border: 2px solid #c6ff00 !important;
+}
+
+.html-percentage {
+    width: 95% !important;
+}
+
+.css-percentage {
+    width: 90% !important;
+}
+
+.bootstrap-percentage {
+    width: 95% !important;
+}
+
+.mysql-percentage {
+    width: 90% !important;
+}
+
+.js-percentage {
+    width: 90% !important;
+}
+
+.jquery-percentage {
+    width: 90% !important;
+}
+
+.php-percentage {
+    width: 90% !important;
+}
+
+.oop-percentage {
+    width: 90% !important;
+}
+
+.mvc-percentage {
+    width: 90% !important;
+}
+
+.laravel-percentage {
+    width: 90% !important;
+}
+
+.ci-percentage {
+    width: 90% !important;
+}
+
+.wp-percentage {
+    width: 90% !important;
+}
+
+.vb-percentage {
+    width: 90% !important;
+}
+
+.flutter-percentage {
+    width: 85% !important;
+}
+
+/* End of Skills Design */
+
+
+/* Start of Background Colors */
+.patina {
+    background: #407A52 !important;
+}
+
+.monza {
+    background: #CF000F !important;
+}
+
+.ibis {
+    background: #F58F84 !important;
+}
+
+.medium-purple {
+    background: #BF55EC !important;
+}
+
+.ultra-marine {
+    background: #5D8CAE !important;
+}
+
+.ripe-lemon {
+    background: #F7CA18 !important;
+}
+
+.turq {
+    background: #36D7B7 !important;
+}
+
+.amber {
+    background: #CA6924 !important;
+}
+
+.scarlet {
+    background: #D24D57 !important;
+}
+
+.jordy-blue {
+    background: #89C4F4 !important;
+}
+
+.wisteria {
+    background: #875F9A !important;
+} 
+
+.jungle-green {
+    background: #2ABB9B !important;
+}
+
+.navy-blue {
+    background: #003171 !important;
+}
+
+.lime-green {
+    background: #c6ff00 !important;
+}
+/* End of Background Colors */
+
+.portfolio-grid figure a div small {
+    bottom: 60px !important;
+    right: 20px !important;  
+}
